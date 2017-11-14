@@ -2,9 +2,7 @@ import numpy as np
 import os
 import sys
 
-from core.dqn import DQNAgent
-from envs.hunter_prey import MazeEnv
-from config import *
+from config.hunter_prey import *
 
 history = [ [] for _ in range(num_agents)]
 ori_history = [ [] for _ in range(num_agents)]

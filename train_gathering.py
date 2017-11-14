@@ -10,8 +10,8 @@ ori_history = [ [] for _ in range(num_agents)]
 if __name__ == "__main__":
     if not os.path.exists(data_dir):
          os.mkdir(data_dir)
-    agents, env = init()
 
+    agents, env = init()
     done = False
 
     turn = [i for i in range(1, num_agents+1)]
